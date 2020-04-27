@@ -3,7 +3,8 @@ Description: Demo Template
 
 Parameters: 
   myKeyPair:
-    Type: "AWS::EC2::KeyPair::KeyName" 
+    Type: "String"
+    Default: demo_key
     Description: Select and existing KeyPair from your account.
   
   # myVPC:
